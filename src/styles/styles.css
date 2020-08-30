@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 20px;
+  background-color: rgb(153, 152, 152);
+}
+
+.wrapper {
+  width: 100%;
+  height: 434px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.seach-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.seach-form input {
+  width: 200px;
+  height: 30px;
+}
+
+.card {
+  display: inline-block;
+  width: 500px;
+}
+
+.card__name {
+  text-align: center;
+}
+
+.card__list {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  padding: 0;
+  line-height: 2.5;
+  list-style: none;
+  vertical-align: top;
+}
+
+.card__languages-list {
+  line-height: 1.5;
+  list-style-type: disc;
+}
+
+.card__list span {
+  font-weight: bold;
+}
+.img-flag {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+}
